@@ -5,4 +5,10 @@ class Cat
   def meow
     puts "meow!"
   end
+  attr_accessor :name 
+  
+  def name=(name)
+    name = "Maru"
+  end
+  
 end
