@@ -7,7 +7,7 @@ class Cat
   end
   attr_accessor :name 
   
-  def name=(name)
+  def name
     name = "Maru"
   end
   
