@@ -1,5 +1,8 @@
 ## code your solution here. 
 class Cat 
-  def attr_accessor
-    
+  attr_accessor :meow
+  
+  def meow
+    puts "meow!"
+  end
 end
